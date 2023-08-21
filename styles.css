@@ -4,8 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-image: url('background.jpg');
+    height: 100;
+    background-image: src='background.jpg';
     background-size: cover;
     background-position: center;
 }
