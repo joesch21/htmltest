@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Use vh for viewport height */
-    background-image: url('htmltest/background.jpg'); /* Provide the correct image URL */
+    background-image: url('https://github.com/joesch21/htmltest/blob/main/background.jpg'); /* Provide the correct image URL */
     background-size: cover;
     background-position: center;
 }
