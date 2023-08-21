@@ -4,8 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100;
-    background-image: src='background.jpg';
+    height: 100vh; /* Use vh for viewport height */
+    background-image: url('htmltest/background.jpg'); /* Provide the correct image URL */
     background-size: cover;
     background-position: center;
 }
