@@ -5,8 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Use vh for viewport height */
-    background-image: url('html.js-focus-visible body.logged-in.env-production.page-responsive div.logged-in.env-production.page-responsive div.application-main div main#js-repo-pjax-container turbo-frame#repo-content-turbo-frame div#repo-content-pjax-container.repository-content react-app.loaded div div.Box-sc-g0xbh4-0 div.Box-sc-g0xbh4-0.fSWWem div.Box-sc-g0xbh4-0.kPPmzM div.Box-sc-g0xbh4-0.cIAPDV main.Box-sc-g0xbh4-0.emFMJu div.Box-sc-g0xbh4-0.hlUAHL div.Box-sc-g0xbh4-0.iStsmI div.Box-sc-g0xbh4-0.MERGN div.Box-sc-g0xbh4-0.iJmJly div.Box-sc-g0xbh4-0.jACbi.container div.Box-sc-g0xbh4-0.flDsrw section.Box-sc-g0xbh4-0.cJzElx div.Box-sc-g0xbh4-0.iIZCet img.Box-sc-g0xbh4-0.kzRgrI'); /* Direct link to the raw image */
-    background-size: cover;
+    background-image: url('background.jpg)
     background-position: center;
 }
 
