@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Condor NFT Marketplace</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .container {
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .side-frame {
+            width: 100px;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.2);
+            margin: 0 10px;
+        }
+        
+        .content {
+            flex-grow: 1;
+            text-align: center;
+        }
+        
+        #connect-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="connect-button">Connect</button>
+    <div class="container">
+        <div class="side-frame"></div>
+        <div class="content">
+            <h1>Gold Condor NFT Marketplace</h1>
+        </div>
+        <div class="side-frame"></div>
+    </div>
+    <script>
+        document.getElementById("connect-button").addEventListener("click", async () => {
+            try {
+                // Check if Metamask is installed
+                if (typeof window.ethereum !== 'undefined') {
+                    // Request account access
+                    const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+                    console.log('Connected to Metamask:', accounts);
+                    // You can perform further actions after successful connection
+                } else {
+                    console.log('Metamask is not installed.');
+                }
+            } catch (error) {
+                console.error('Error connecting to Metamask:', error);
+            }
+        });
+    </script>
+</body>
+</html>
