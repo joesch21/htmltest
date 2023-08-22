@@ -1,42 +1,50 @@
-body {
-    margin: 0;
-    padding: 0;
+/* styles.css */
+
+/* Overall layout styles */
+.header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh; /* Use vh for viewport height */
-    background-image: url('background.jpg'); /* Don't forget the semicolon here */
-    background-position: center;
+    padding: 20px;
+    background-color: #f0f0f0;
 }
 
-.container {
+.navbar ul {
+    list-style: none;
     display: flex;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 50px;
-    border-radius: 50px;
 }
 
-.side-frame {
-    width: 100px;
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: 0 10px;
+.navbar li {
+    margin-right: 20px;
 }
 
 .content {
-    flex-grow: 1;
-    text-align: center;
+    display: flex;
+    margin-top: 20px;
 }
 
-#connect-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.side-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.main-column {
+    flex: 2;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Image column styles */
+.image-column img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Other styles */
+.logo img {
+    max-width: 100px;
+    height: auto;
 }
