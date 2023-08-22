@@ -4,8 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100; /* Use vh for viewport height */
-    background-image: url('background.jpg')
+    height: 100vh; /* Use vh for viewport height */
+    background-image: url('background.jpg'); /* Don't forget the semicolon here */
     background-position: center;
 }
 
@@ -40,3 +40,4 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
