@@ -48,3 +48,15 @@
     max-width: 100px;
     height: auto;
 }
+
+.connect-button a {
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.connect-button a:hover {
+    background-color: #e68000;
+}
