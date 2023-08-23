@@ -1,6 +1,15 @@
 /* styles.css */
 
 /* Overall layout styles */
+
+.body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .header {
     display: flex;
     justify-content: space-between;
