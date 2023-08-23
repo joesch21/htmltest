@@ -46,8 +46,8 @@
 
 
 .image-column img {
-        width: 200px;
-        height: 150px;
+        width: 200;
+        height: 150;
         object-fit: cover; /* This ensures the image maintains its aspect ratio while covering the dimensions */
     }
 
